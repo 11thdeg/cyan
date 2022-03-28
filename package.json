@@ -1,0 +1,35 @@
+{
+  "name": "cyan-elements",
+  "version": "0.0.0-alpha.1",
+  "description": "Element library built with Vite and Lit",
+  "main": "/dist/index.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/11thdeg/cyan.git"
+  },
+  "keywords": [
+    "lit",
+    "element",
+    "component",
+    "library",
+    "typescript"
+  ],
+  "author": "Ville Takanen (Futurice)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/11thdeg/cyan/issues"
+  },
+  "homepage": "https://github.com/11thdeg/cyan#readme",
+  "dependencies": {
+    "lit": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "typescript": "^4.6.3",
+    "vite": "^2.8.6"
+  }
+}
