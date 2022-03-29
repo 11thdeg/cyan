@@ -11,7 +11,7 @@ export class ToggleHamburger extends LitElement {
 		`
 	]
 
-	@property() toggled = false
+	@property({type: Boolean}) toggled = false
 
 	render() {
 		return html`<input type="checkbox" .checked=${this.toggled}>`
