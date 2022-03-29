@@ -1,19 +1,19 @@
 import { LitElement, html, css } from "lit";
 import { customElement, property } from "lit/decorators.js";
 
-@customElement("my-element")
-export class MyElement extends LitElement {
+@customElement("toggle-hamburger")
+export class ToggleHamburger extends LitElement {
 	static styles = [
 		css`
 			:host {
 				display: block;
 			}
 		`
-	];
+	]
 
-	@property() name = "World";
+	@property() toggled = false
 
 	render() {
-		return html`<h1>Hello, ${this.name}</h1>`;
+		return html`<input type="checkbox" .checked=${this.toggled}>`
 	}
 }
